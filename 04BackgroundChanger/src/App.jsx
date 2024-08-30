@@ -3,7 +3,7 @@ function App() {
   const [color, setColor] = useState("black");
   return (
     <>
-      <div style={{ backgroundColor: color}} className="w-full h-screen">
+      <div style={{ backgroundColor: color }} className="w-full h-screen">
         <div
           className="fixed flex flex-wrap
  justify-center bottom-12 inset-x-0 px-2"
@@ -132,7 +132,6 @@ function App() {
             >
               DarkMagenta
             </button>
-            
           </div>
         </div>
       </div>
@@ -141,5 +140,3 @@ function App() {
 }
 
 export default App;
-
-

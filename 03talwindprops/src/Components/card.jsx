@@ -1,6 +1,6 @@
 import React from 'react'
 
-function card({someObj,btnText = "paayment"}) {
+function card({someObj,btnText = "payment"}) {
   console.log(someObj)
   return (
     <div>
